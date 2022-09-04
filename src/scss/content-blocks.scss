@@ -1,0 +1,22 @@
+.content-blocks {
+	margin: 128px 0;
+	.content-blocks__inner {
+
+		text-align: center;
+		
+		
+		span {
+			text-transform: uppercase;
+			color: $neutrals-4;
+		}
+		h3 {
+			color: $neutrals-8;
+			margin-bottom: 24px;
+		}
+		button {
+
+			margin: 0 auto;
+		}
+
+	}
+}

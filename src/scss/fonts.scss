@@ -1,0 +1,200 @@
+@font-face {
+                font-family: DMSans-Bold;
+                font-display: swap;
+                src: url("../fonts/DMSans-Bold.woff2") format("woff2"),
+                    url("../fonts/DMSans-Bold.woff") format("woff");
+                font-weight: 700;
+                font-style: normal;
+              }
+@font-face {
+                font-family: DMSans-BoldItalic;
+                font-display: swap;
+                src: url("../fonts/DMSans-BoldItalic.woff2") format("woff2"),
+                    url("../fonts/DMSans-BoldItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: DMSans-Italic;
+                font-display: swap;
+                src: url("../fonts/DMSans-Italic.woff2") format("woff2"),
+                    url("../fonts/DMSans-Italic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: DMSans-Medium;
+                font-display: swap;
+                src: url("../fonts/DMSans-Medium.woff2") format("woff2"),
+                    url("../fonts/DMSans-Medium.woff") format("woff");
+                font-weight: 500;
+                font-style: normal;
+              }
+@font-face {
+                font-family: DMSans-MediumItalic;
+                font-display: swap;
+                src: url("../fonts/DMSans-MediumItalic.woff2") format("woff2"),
+                    url("../fonts/DMSans-MediumItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: DMSans-Regular;
+                font-display: swap;
+                src: url("../fonts/DMSans-Regular.woff2") format("woff2"),
+                    url("../fonts/DMSans-Regular.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Black;
+                font-display: swap;
+                src: url("../fonts/Poppins-Black.woff2") format("woff2"),
+                    url("../fonts/Poppins-Black.woff") format("woff");
+                font-weight: 900;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-BlackItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-BlackItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-BlackItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Bold;
+                font-display: swap;
+                src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+                    url("../fonts/Poppins-Bold.woff") format("woff");
+                font-weight: 700;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-BoldItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-BoldItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-BoldItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-ExtraBold;
+                font-display: swap;
+                src: url("../fonts/Poppins-ExtraBold.woff2") format("woff2"),
+                    url("../fonts/Poppins-ExtraBold.woff") format("woff");
+                font-weight: 800;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-ExtraBoldItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-ExtraBoldItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-ExtraBoldItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-ExtraLight;
+                font-display: swap;
+                src: url("../fonts/Poppins-ExtraLight.woff2") format("woff2"),
+                    url("../fonts/Poppins-ExtraLight.woff") format("woff");
+                font-weight: 200;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-ExtraLightItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-ExtraLightItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-ExtraLightItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Italic;
+                font-display: swap;
+                src: url("../fonts/Poppins-Italic.woff2") format("woff2"),
+                    url("../fonts/Poppins-Italic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Light;
+                font-display: swap;
+                src: url("../fonts/Poppins-Light.woff2") format("woff2"),
+                    url("../fonts/Poppins-Light.woff") format("woff");
+                font-weight: 300;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-LightItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-LightItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-LightItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Medium;
+                font-display: swap;
+                src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+                    url("../fonts/Poppins-Medium.woff") format("woff");
+                font-weight: 500;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-MediumItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-MediumItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-MediumItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Regular;
+                font-display: swap;
+                src: url("../fonts/Poppins-Regular.woff2") format("woff2"),
+                    url("../fonts/Poppins-Regular.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-SemiBold;
+                font-display: swap;
+                src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+                    url("../fonts/Poppins-SemiBold.woff") format("woff");
+                font-weight: 600;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-SemiBoldItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-SemiBoldItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-SemiBoldItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-Thin;
+                font-display: swap;
+                src: url("../fonts/Poppins-Thin.woff2") format("woff2"),
+                    url("../fonts/Poppins-Thin.woff") format("woff");
+                font-weight: 100;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Poppins-ThinItalic;
+                font-display: swap;
+                src: url("../fonts/Poppins-ThinItalic.woff2") format("woff2"),
+                    url("../fonts/Poppins-ThinItalic.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }
+@font-face {
+                font-family: Pushster;
+                font-display: swap;
+                src: url("../fonts/Pushster-Regular.woff2") format("woff2"),
+                    url("../fonts/Pushster-Regular.woff") format("woff");
+                font-weight: 400;
+                font-style: normal;
+              }

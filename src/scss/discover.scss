@@ -1,0 +1,128 @@
+.discover {
+	padding: 128px 0;
+	border-bottom: 1px solid $neutrals-3;
+
+	h3 {
+		color: $neutrals-8;
+		margin-bottom: 80px;
+	}
+
+	.discover__inner {
+
+		.up-filter {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			z-index: 10000;
+
+			padding-bottom: 32px;
+			border-bottom: 1px solid $neutrals-3;
+			nav {
+				margin-bottom: 12px;
+				ul {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-right: -12px;
+					
+
+					li {
+						
+						color: $neutrals-4;
+						margin-right: 12px;
+						transition: .2s linear;
+						padding: 6px 12px;
+
+						&:hover {
+							cursor: pointer;
+							color: $neutrals-8;
+						}
+						&:focus {
+							color: $neutrals-8;
+							background-color: $neutrals-3;
+							border-radius: 100px;
+						}
+					}
+				}
+			}
+			button {
+				margin-bottom: 12px;
+			}
+		}
+		.down-filter {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 32px;
+			margin-bottom: 23px;
+
+			.select > label {
+				color: $neutrals-5;
+				display: block;
+				margin-bottom: 12px;
+			}
+			.slider {
+
+				label {
+					color: $neutrals-5;
+					display: block;
+					margin-bottom: 20px;
+				}
+				.range {
+					display: flex;
+					justify-content: space-between;
+					margin-top: 12px;
+					
+					.caption_bold {
+						color: $neutrals-8;	
+					}
+				}
+			}
+		}
+		.NFTs {
+			.NFTs__inner {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+
+				.NFT {
+					margin-bottom: 32px;
+				}
+			}
+		}
+		.dark-small-right {
+			margin: 32px auto;
+			svg {
+				fill: $neutrals-8;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+@media(max-width: 375px) {
+	.discover .discover__inner .up-filter button {
+		display: none;
+	}
+	nav {
+		display: none;
+	}
+	#id-2, #id-3, #id-4 {
+		display: none;
+	}
+	.discover .discover__inner .NFTs .NFTs__inner {
+		justify-content: center;
+	}
+	.discover .discover__inner .down-filter {
+		justify-content: center;
+	}
+	.discover .discover__inner .up-filter {
+		justify-content: center;	
+	}
+}

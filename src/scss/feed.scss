@@ -1,0 +1,241 @@
+.feed {
+	margin-top: 136px;
+	margin-bottom: 128px;
+
+	.feed__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+
+		.featured-item {
+
+			.featured-item_img {
+				width: 448px;
+
+				height: 432px;
+				object-fit: cover;
+				border-radius: 12px;
+				margin-bottom: 24px;
+			}
+
+			.featured-item__inner {
+				display: flex;
+				align-items: center;
+
+
+				
+
+
+				img {
+					object-fit: cover;
+					width: 48px;
+					height: 48px;
+					margin-right: 16px;
+				}
+
+				.des {
+					display: flex;
+					flex-direction: column;
+					width: 312px;
+					
+					.body-1_bold {
+						color: $neutrals-8;
+
+					}
+					.caption_bold {
+						color: $neutrals-6;
+					}
+
+				}
+				.price {
+					display: flex;
+					flex-direction: column;
+
+					.caption-2 {
+						color: $neutrals-4;
+					}
+					.hairline-2 {
+						color: $primary-4;
+						padding: 6px;
+						border: 2px solid;
+						border-radius: 4px;
+					}
+				}
+			}
+
+		}
+
+
+		
+		.item-list {
+			margin-bottom: -32px;
+			.item {
+				display: flex;
+				align-items: center;
+
+				margin-bottom: 32px;
+
+				img {
+					width: 160px;
+					height: 148px;
+					object-fit: cover;
+					border-radius: 12px;
+					margin-right: 24px;
+				}
+				.item__inner {
+
+					.title {
+						margin-bottom: 8px;
+						span {
+							color: $neutrals-8;
+						}
+					}
+					.inf {
+						width: 167px;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						.hairline-2 {
+							color: $primary-4;
+							padding: 6px;
+							border: 2px solid;
+							border-radius: 4px;
+						}
+						.caption {
+							color: $neutrals-4;
+						}
+
+						img {
+							width: 24px;
+							height: 24px;
+							object-fit: cover;
+							margin: 0;
+						}
+					}
+					button {
+						margin-top: 16px;
+					}
+				}
+			}
+		}
+		.creators {
+
+			border-left: 1px solid $neutrals-3;
+			padding-left: 32px;
+
+			span {
+				color: $neutrals-4;
+			}
+			.creator__inner:last-child {
+				padding-bottom: 0;
+				padding-top: 24px;
+				border-bottom: none;
+
+				.creator {
+					display: flex;
+					align-items: center;
+					padding: 24px 0;
+					border-bottom: 1px solid $neutrals-4;
+
+					.image {
+						position: relative;
+						margin-right: 16px;
+
+						span {
+							position: absolute;
+							padding: 0 6px;
+							background-color: $neutrals-8;
+							color: $neutrals-2;
+							border: 2px solid $neutrals-1;
+							border-radius: 64px;
+
+							left: -4px;
+							top: -4px;
+						}
+
+						img {
+							border-radius: 50%;
+						}
+
+					}
+
+					.text {
+						display: flex;
+						flex-direction: column;
+
+						.caption_bold {
+							color: $neutrals-8;
+
+						}
+						.caption-2_bold {
+							color: $neutrals-8;
+
+							.caption-2 {
+								color: $neutrals-4;
+							}
+						}
+					}
+				}
+
+				button {
+					margin-top: 32px;
+					fill: $neutrals-8;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+@media(max-width: 375px) {
+
+	.feed .feed__inner {
+		flex-wrap: wrap;
+	}
+	.feed .feed__inner .featured-item .featured-item_img {
+		width: 311px;
+	}
+	.feed .feed__inner .featured-item .featured-item__inner .des .body-1_bold {
+		font-family: 'Poppins-medium', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		color: $neutrals-8;
+	}
+	.feed .feed__inner .featured-item .featured-item__inner .des .caption_bold {
+		font-family: 'Poppins-semibold', sans-serif;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.featured-item {
+		width: 311px;
+	}
+	.feed .feed__inner .featured-item .featured-item__inner .des {
+		width: auto;
+		margin-left: -30px;
+	}
+	.feed .feed__inner .featured-item .featured-item__inner {
+		justify-content: space-between;
+		margin-bottom: 40px;
+	}
+	.feed .feed__inner .item-list .item .item__inner .inf .caption {
+		display: none;
+	}
+	.feed .feed__inner .item-list {
+		width: 311px;
+	}
+	.feed .feed__inner .item-list .item .item__inner .inf {
+		width: auto;
+
+	}
+	.item__inner {
+		width: 117px;
+	}
+	.feed .feed__inner .creators {
+		margin-top: 40px;
+	}
+
+}

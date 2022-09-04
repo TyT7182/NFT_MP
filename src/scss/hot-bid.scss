@@ -1,0 +1,29 @@
+.hot-bid {
+	padding: 136px 0 128px ;
+	.hot-bid__inner {
+
+		.up {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 64px;
+			h3 {
+				color: $neutrals-8;
+			}
+		}
+		.items {
+			display: flex;
+			justify-content: space-between;
+		}	
+	}
+}
+
+
+@media(max-width: 375px) {
+	.hot-bid .hot-bid__inner .items {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.NFT {
+		margin-bottom: 32px;
+	}
+}

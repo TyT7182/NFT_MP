@@ -1,0 +1,106 @@
+.upload-item {
+	margin-top: 128px;
+	.upload__inner {
+		.item-details {
+			width: 640px;
+			.title {
+				position: relative;
+				h2 {
+					color: $neutrals-8;
+				}
+				.light-small-false {
+					position: absolute;
+					top: 0;
+					right: 0;
+					color: $neutrals-8;
+				}
+
+			}
+			.load-file {
+				margin-top: 40px;
+				margin-bottom: 40px;
+				.body-2_bold {
+					display: block;
+					color: $neutrals-8;
+					margin-bottom: 4px;
+				}
+				.caption-2 {
+					display: block;
+					color: $neutrals-4;
+					margin-bottom: 16px;
+				}
+				form > label {
+					position: relative;
+					display: block;
+					width: 100%;
+					height: 182px;
+					background-color: $neutrals-2;
+					text-align: center;
+					border-radius: 16px;
+
+					div {
+						position: absolute;
+						right: 211.5px;
+						top: 64px;
+
+						.caption-2 {
+							color: $neutrals-4;
+						}
+					}
+
+				}
+			}
+			.item-info {
+
+				.body-2_bold {
+					display: block;
+					margin-bottom: 32px;
+					color: $neutrals-8;
+				}
+				.input {
+					margin-bottom: 32px;
+					.hairline-2 {
+						display: block;
+						margin-bottom: 12px;
+						color: $neutrals-5;
+					}
+					form {
+						width: 100%;
+					}
+				}
+				.search-simple input {
+					width: 100%;
+				}
+				.inputS {
+					display: flex;
+					justify-content: space-between;
+					.select {
+						width: 191px;
+						background-color: transparent;
+
+						.hairline-2 {
+							display: block;
+							position: static;
+							width: auto;
+							height: auto;
+							border: none;
+							color: $neutrals-5;
+							margin-bottom: 12px;
+
+						}
+					}
+					.select .choices__inner {
+						width: 191px;
+						background-color: transparent;
+					}
+					.select .choices__list {
+						background-color: transparent;
+					}
+					.input {
+						width: 191px;
+					}
+				}
+			}
+		}
+	}
+}

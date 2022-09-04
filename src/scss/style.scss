@@ -1,0 +1,100 @@
+@import 'fonts'; /*Шрифты*/
+@import 'vars'; /*Переменные стилей*/
+
+li {
+ list-style-type: none; /* Убираем маркеры */
+}
+ul {
+ margin-left: 0; /* Отступ слева в браузере IE и Opera */
+ padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+a {
+  text-decoration: none;
+  color: $neutrals-8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: $neutrals-1;
+  -ms-user-select: none; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
+
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: $neutrals-3;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 1) inset;
+
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, $neutrals-3, $primary-1);
+  
+  border-radius: 12px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, $neutrals-1, $primary-1);
+  
+
+
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+
+  @media(max-width: 375px) {
+    width: 311px;
+    margin: 0 auto;
+    
+  }
+
+}
+
+
+
+
+
+/*Скрытие placeholeder'а при наведении курсора*/
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 800px; transition: text-indent 0.3s ease;}
+input:focus::-moz-placeholder          {text-indent: 800px; transition: text-indent 0.3s ease;}
+input:focus:-moz-placeholder           {text-indent: 800px; transition: text-indent 0.3s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 800px; transition: text-indent 0.3s ease;}
+
+
+
+
+/*Импорт стилей*/
+@import 'typography';
+@import 'header';
+@import 'btn';
+@import 'input';
+@import 'content-blocks';
+@import 'auction';
+@import 'video';
+@import 'feed';
+@import 'top-creators';
+@import 'hot-bid';
+@import 'NFT-block';
+@import 'hot-collections';
+@import '../../node_modules/choices.js/src/styles/choices.scss';
+@import 'select';
+@import '../../node_modules/swiper/swiper-bundle.scss';
+@import 'discover';
+@import 'nouislider';
+@import 'CTA';
+@import 'footer';
+@import 'create-1';
+@import 'upload-item';
+
