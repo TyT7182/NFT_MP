@@ -4,7 +4,7 @@
 
 При создании использовались технологии: GULP, SCSS, JS, HTML, а также множество плагинов JS.
 
-(САЙТ НЕ ЯВЛЯЕТСЯ ПРОЕКТОМ КОММЕРЧЕСКИМ ПРОЕКТОМ!!!)
+(САЙТ НЕ ЯВЛЯЕТСЯ КОММЕРЧЕСКИМ ПРОЕКТОМ!!!)
 
 # NFT_MP
 A website specializing in the sale of NFT, adaptive-responsive UI.
