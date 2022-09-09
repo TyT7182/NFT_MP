@@ -38,33 +38,3 @@
 
 
 
-@media(max-width: 375px) {
-	.CTA .CTA__inner {
-		justify-content: center;
-		flex-direction: column;
-		text-align: center;
-	}
-	.CTA .CTA__inner .left h1 {
-		margin-top: 12px;
-		margin-bottom: 20px;
-	}
-	.CTA .CTA__inner .right img {
-		margin-top: 40px;
-		width: 100%;
-		height: 311px;
-	}
-	.CTA .CTA__inner .left .btns {
-		flex-direction: column;
-		margin-bottom: -16px;
-	}
-
-	.CTA .CTA__inner .left .btns button {
-		width: 100%;
-		margin-bottom: 16px;
-		
-	}
-	.CTA .CTA__inner .left .btns button > a {
-		margin: 0 auto;
-	}
-
-}

@@ -1,0 +1,37 @@
+@media(min-width: $breakpoint_mobile) and (max-width: 768px) {
+	.footer .footer__inner .block-2 {
+		margin: 32px 0;
+
+	}
+	.footer .footer__inner .block-3 .caption {
+		width: 100%;
+
+	}
+	.block-3 {
+		width: 311px;
+
+		.email-simple input {
+			width: 311px;
+		}
+	}
+	.email-simple button {
+		right: 10px;
+	}
+	.email-simple {
+		width: 311px;
+	}
+}
+@media(min-width: $breakpoint_tablet) and (max-width: 1024px) {
+	.footer .footer__inner {
+		justify-content: space-around;
+	}
+	.footer .footer__inner .block-3 {
+		display: none;
+	}
+	.footer .footer__inner .copyright {
+		justify-content: space-around;
+	}
+	.footer .footer__inner .block-2 {
+		margin: 0;
+	}
+}

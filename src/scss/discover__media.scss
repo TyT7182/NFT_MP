@@ -1,0 +1,43 @@
+@media(min-width: $breakpoint_mobile) and (max-width: 768px) {
+	.discover .discover__inner .up-filter button {
+		display: none;
+	}
+	nav {
+		display: none;
+	}
+	#id-2, #id-3, #id-4 {
+		display: none;
+	}
+	.discover .discover__inner .NFTs .NFTs__inner {
+		justify-content: center;
+	}
+	.discover .discover__inner .down-filter {
+		justify-content: center;
+	}
+	.discover .discover__inner .up-filter {
+		justify-content: center;	
+	}
+}
+@media(min-width: $breakpoint_tablet) and (max-width: 1024px) {
+	.discover .discover__inner .down-filter #id-2, #id-3, {
+		display: none;
+	}
+	.select-short {
+		display: none;
+	}
+	.discover .discover__inner .up-filter button {
+		display: none;
+	}
+	.discover .discover__inner .NFTs .NFTs__inner {
+		justify-content: space-around;
+		padding: 0;
+	}
+	.discover__inner {
+		padding: 0 20px;
+	}
+
+	.discover h3 {
+		text-align: center;
+	}
+
+}

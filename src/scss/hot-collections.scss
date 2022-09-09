@@ -12,7 +12,7 @@
 		.items {
 			display: flex;
 			justify-content: space-between;
-			.item-1 {
+			.item-1, .item-2, .item-3 {
 				width: 352px;
 				.images {
 					
@@ -71,21 +71,3 @@
 }
 
 
-@media(max-width: 375px) {
-	.hot-collections .hot-collections__inner .items {
-		flex-wrap: wrap;
-	}
-	.hot-collections .hot-collections__inner .items .item-1 .images .image-1 {
-		width: 100%;
-	}
-	.hot-collections .hot-collections__inner .items .item-1 .images {
-		align-items: center;
-	}
-	.hot-collections .hot-collections__inner .items .item-1 .images .image-2, .hot-collections .hot-collections__inner .items .item-1 .images .image-3, .hot-collections .hot-collections__inner .items .item-1 .images .image-4 {
-		width: 95px;
-		
-	}
-	.hot-collections .hot-collections__inner .items .item-1 {
-		margin-bottom: 32px;
-	}
-}

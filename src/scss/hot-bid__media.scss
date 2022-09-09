@@ -1,0 +1,22 @@
+@media(min-width: $breakpoint_mobile) and (max-width: 768px) {
+	.hot-bid .hot-bid__inner .items {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.NFT {
+		margin-bottom: 32px;
+	}
+}
+@media(min-width: $breakpoint_tablet) and (max-width: 1024px) {
+	.hot-bid .hot-bid__inner .items {
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+	.hot-bid__inner {
+		padding: 0 80px;
+	}
+	.NFT {
+		margin-bottom: 32px;
+	}
+}

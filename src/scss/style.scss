@@ -43,20 +43,36 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, $neutrals-1, $primary-1);
   
-
-
 }
+
+
+
 .container {
   width: 1120px;
   margin: 0 auto;
 
-  @media(max-width: 375px) {
-    width: 311px;
+
+  @media(min-width: $breakpoint_mobile) and (max-width: 768px) {
+    width: 320px;
     margin: 0 auto;
-    
+  }
+  @media(min-width: $breakpoint_tablet) and (max-width: 1024px) {
+    width: 760px;
+    margin: 0 auto;
+
+  }
+  @media(min-width: $breakpoint_laptop) and (max-width: 1120px) {
+    width: 900px;
+    margin: 0 auto;
+  }
+  @media(min-width: $breakpoint_desktop) {
+    width: 1120px;
+    margin: 0 auto;
+
   }
 
 }
+
 
 
 
@@ -97,4 +113,16 @@ input:focus:-ms-input-placeholder      {text-indent: 800px; transition: text-ind
 @import 'footer';
 @import 'create-1';
 @import 'upload-item';
+
+
+
+@import 'auction__media.scss';
+@import 'CTA__media.scss';
+@import 'discover__media.scss';
+@import 'feed__media.scss';  
+@import 'footer__media.scss';  
+@import 'header__media.scss';
+@import 'hot-bid__media.scss';
+@import 'hot-collections__media.scss';
+@import 'top-creators__media.scss';
 

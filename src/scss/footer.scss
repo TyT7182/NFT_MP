@@ -96,23 +96,3 @@
 
 
 
-@media(max-width: 375px) {
-	.footer .footer__inner .block-2 {
-		margin: 32px 0;
-
-	}
-	.footer .footer__inner .block-3 .caption {
-		width: 100%;
-
-	}
-	.block-3 {
-		width: 311px;
-
-		.email-simple input {
-			width: 311px;
-		}
-	}
-	.email-simple button {
-		right: 50px;
-	}
-}

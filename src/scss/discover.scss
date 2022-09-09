@@ -106,23 +106,3 @@
 
 
 
-@media(max-width: 375px) {
-	.discover .discover__inner .up-filter button {
-		display: none;
-	}
-	nav {
-		display: none;
-	}
-	#id-2, #id-3, #id-4 {
-		display: none;
-	}
-	.discover .discover__inner .NFTs .NFTs__inner {
-		justify-content: center;
-	}
-	.discover .discover__inner .down-filter {
-		justify-content: center;
-	}
-	.discover .discover__inner .up-filter {
-		justify-content: center;	
-	}
-}
